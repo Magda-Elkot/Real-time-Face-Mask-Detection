@@ -19,6 +19,9 @@
   A machine learning model was created using the MobileNetV2 architecture and a dense output layer with a softmax activation function. 
   The model was compiled using the Adam optimizer and categorical crossentropy loss function, and trained on the training data for 10 epochs.
   
+## Model Training
+During the training of the model, we monitored the training and validation loss to ensure that the model was not overfitting. The plot below shows the training and validation loss over 10 epochs
+  
 # Real-time Face Mask Detection
   Finally, the model was deployed for real-time face mask detection using OpenCV to capture video from the user's webcam. 
   The model predicts whether the person in the video is wearing a face mask or not, and displays the result in real-time on the video feed. 
