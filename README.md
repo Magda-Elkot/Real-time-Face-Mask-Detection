@@ -16,13 +16,8 @@
   The labels were converted to binary values and the dataset was split into training and testing sets.
    
 ## Model Training
-  During the training of the model, we monitored the training and validation loss to ensure that the model was not overfitting. 
-  The plot below shows the training and validation loss over 10 epochs
-
-  ![image](https://user-images.githubusercontent.com/121414067/235493970-0768cde8-000b-424b-8ee6-005725db8563.png)
-
-  As you can see, the model achieved a low training and validation loss throughout the training process, indicating 
-  that it was not overfitting to the training data.
+  A machine learning model was created using the MobileNetV2 architecture and a dense output layer with a softmax activation function. 
+  The model was compiled using the Adam optimizer and categorical crossentropy loss function, and trained on the training data for 10 epochs.
 
 ## Real-time Face Mask Detection
   Finally, the model was deployed for real-time face mask detection using OpenCV to capture video from the user's webcam. 
